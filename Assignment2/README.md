@@ -67,3 +67,8 @@ concatenated in a chain. More specifically, the first program's stdout is direct
 second program; the second program's stdout is directed to the stdin of the third program; and so on so
 forth.The `pipe()` and `dup2()` system calls will be useful.
 Your compiled executable must be called cshell.
+
+## Bonus Question 1
+Create a system call to convert given string to uppercase
+## Bonus Question 2
+Create a new system call of your choice
